@@ -64,7 +64,7 @@ public class Playfield : MonoBehaviour
             if (isRowFull(y))
             {
                 deleteRow(y);
-                decreaseRowsAbove(y + 1);
+                decreaseRowsAbove(y+1);
                 --y;
             }
         }
